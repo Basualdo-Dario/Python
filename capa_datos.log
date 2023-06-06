@@ -1,0 +1,3 @@
+03:47:39 PM: ERROR [Conexio.py:43] Ocurrio un error al obtener el cursor: {e}
+03:50:06 PM: DEBUG [Conexio.py:24] Conexion exitosa: <connection object at 0x0000022A9B96A020; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:50:06 PM: DEBUG [Conexio.py:40] se abrio perfectamente el cursor <cursor object at 0x0000022A9BA0E180; closed: 0>
