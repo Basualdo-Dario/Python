@@ -55,7 +55,7 @@ class PersonaDao:
 if __name__ == '__main__':
 
 
-    """ 
+    
     persona1 = Persona(nombre='Thiago',apellido='Bonanote',email='TB@gmail.com')
     PersonaDao.insertar(persona1)
    
@@ -68,8 +68,7 @@ if __name__ == '__main__':
     personas = PersonaDao.seleccionar()
     for persona in personas:
         log.debug(persona) 
-        """
+        
     
 
 
-#   C196 T28
