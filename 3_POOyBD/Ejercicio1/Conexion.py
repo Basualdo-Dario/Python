@@ -40,13 +40,30 @@ class Conexion:
         return conexion
 
 
+    @classmethod
+    def liberarConexion(cls,Conexion):
+        #put = poner o colocar/ es decir que va a colocar el objeto conexion en el pool de conexiones
+        cls.obtenerpool().putconn(Conexion)
+        log.debug(f'Regresamos la conexion al pool: {Conexion}')
+
+
+    @classmethod
+    def CerrarConexiones(cls):
+        #closeall() esto quiere decir que se van a cerrar todo los objetos de conexion
+        cls.obtenerpool().closeall()
 
 
 if __name__ == '__main__':
     conexion1  = Conexion.obtenerConexion()
+    Conexion.liberarConexion(conexion1)
+
     conexion2  = Conexion.obtenerConexion()
     conexion3  = Conexion.obtenerConexion()
+    Conexion.liberarConexion(conexion3)
+    
     conexion4  = Conexion.obtenerConexion()
+    Conexion.liberarConexion(conexion4)
+
     conexion5  = Conexion.obtenerConexion()     
   
-""" C198 T28 """
+

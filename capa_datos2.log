@@ -1,0 +1,93 @@
+04:50:38 PM: DEBUG [cursur_del_pool.py:12] Inicio del metodo with __enter__
+04:50:38 PM: DEBUG [Conexion.py:28] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001B1F0A6F6D0>
+04:50:38 PM: DEBUG [Conexion.py:39] Conexion obtenida del poll <connection object at 0x000001B1F2879690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:50:38 PM: DEBUG [cursur_del_pool.py:34] dentro del bloque with
+04:50:38 PM: DEBUG [cursur_del_pool.py:36] [(17, 'Roman', 'Riquelme', 'RR@gmail.com'), (1, 'Dario', 'Basualdo', 'DB@gmail.com'), (2, 'Martin', 'Palermo', 'MP@gmail.com'), (16, 'Cristiano', 'Ronaldo', 'CR7@gmail.com'), (3, 'Leonel', 'Messi', 'LM@gmail.com'), (19, 'Angel', 'Dimaria', 'AD@gmail.com'), (21, 'Paulo', 'Dibala', 'PD@gmail.com'), (24, 'Chiquito', 'Romero', 'CR@gmailcom'), (22, 'Marcos', 'Rojo', 'MR@gmail.com'), (27, 'Thiago', 'Bonanote', 'TB@gmail.com'), (28, 'Thiago', 'Bonanote', 'TB@gmail.com'), (25, 'Rodrigo', 'De Paul', 'RD@gmail.com'), (26, 'Emiliano', 'Martinez', 'EM@gmail.com'), (29, 'Thiago', 'Bonanote', 'TB@gmail.com')]
+04:50:38 PM: DEBUG [cursur_del_pool.py:19] Se ejecuta metodo __exit__
+04:50:38 PM: DEBUG [cursur_del_pool.py:25] Commit de la transaccion
+04:50:38 PM: DEBUG [Conexion.py:47] Regresamos la conexion al pool: <connection object at 0x000001B1F2879690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:10:26 PM: DEBUG [cursur_del_pool.py:11] Inicio del metodo with __enter__
+05:10:26 PM: DEBUG [Conexion.py:28] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000019177C5FFD0>
+05:10:26 PM: DEBUG [Conexion.py:39] Conexion obtenida del poll <connection object at 0x0000019177C24E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:10:26 PM: DEBUG [PersonaDao.py:36] Persona insertada: 
+        ID: None , NOMBRE: Ruben , APELLIDO: Forlan , EMAIL: RF@gmail.com
+05:10:26 PM: DEBUG [cursur_del_pool.py:18] Se ejecuta metodo __exit__
+05:10:26 PM: DEBUG [cursur_del_pool.py:24] Commit de la transaccion
+05:10:26 PM: DEBUG [Conexion.py:47] Regresamos la conexion al pool: <connection object at 0x0000019177C24E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:10:26 PM: DEBUG [cursur_del_pool.py:11] Inicio del metodo with __enter__
+05:10:26 PM: DEBUG [Conexion.py:39] Conexion obtenida del poll <connection object at 0x0000019177C24E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:10:26 PM: DEBUG [cursur_del_pool.py:18] Se ejecuta metodo __exit__
+05:10:26 PM: DEBUG [cursur_del_pool.py:24] Commit de la transaccion
+05:10:26 PM: DEBUG [Conexion.py:47] Regresamos la conexion al pool: <connection object at 0x0000019177C24E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:10:26 PM: DEBUG [cursur_del_pool.py:11] Inicio del metodo with __enter__
+05:10:26 PM: DEBUG [Conexion.py:39] Conexion obtenida del poll <connection object at 0x0000019177C24E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:10:26 PM: DEBUG [cursur_del_pool.py:18] Se ejecuta metodo __exit__
+05:10:26 PM: DEBUG [cursur_del_pool.py:24] Commit de la transaccion
+05:10:26 PM: DEBUG [Conexion.py:47] Regresamos la conexion al pool: <connection object at 0x0000019177C24E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:10:26 PM: DEBUG [cursur_del_pool.py:11] Inicio del metodo with __enter__
+05:10:26 PM: DEBUG [Conexion.py:39] Conexion obtenida del poll <connection object at 0x0000019177C24E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:10:26 PM: DEBUG [cursur_del_pool.py:18] Se ejecuta metodo __exit__
+05:10:26 PM: DEBUG [cursur_del_pool.py:24] Commit de la transaccion
+05:10:26 PM: DEBUG [Conexion.py:47] Regresamos la conexion al pool: <connection object at 0x0000019177C24E10; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:10:26 PM: DEBUG [PersonaDao.py:68] 
+        ID: 1 , NOMBRE: Dario , APELLIDO: Basualdo , EMAIL: DB@gmail.com
+05:10:26 PM: DEBUG [PersonaDao.py:68] 
+        ID: 2 , NOMBRE: Martin , APELLIDO: Palermo , EMAIL: MP@gmail.com
+05:10:26 PM: DEBUG [PersonaDao.py:68] 
+        ID: 3 , NOMBRE: Leonel , APELLIDO: Messi , EMAIL: LM@gmail.com
+05:10:26 PM: DEBUG [PersonaDao.py:68] 
+        ID: 16 , NOMBRE: Cristiano , APELLIDO: Ronaldo , EMAIL: CR7@gmail.com
+05:10:26 PM: DEBUG [PersonaDao.py:68] 
+        ID: 17 , NOMBRE: Roman , APELLIDO: Riquelme , EMAIL: RR@gmail.com
+05:10:26 PM: DEBUG [PersonaDao.py:68] 
+        ID: 19 , NOMBRE: Angel , APELLIDO: Dimaria , EMAIL: AD@gmail.com
+05:10:26 PM: DEBUG [PersonaDao.py:68] 
+        ID: 21 , NOMBRE: Paulo , APELLIDO: Dibala , EMAIL: PD@gmail.com
+05:10:26 PM: DEBUG [PersonaDao.py:68] 
+        ID: 22 , NOMBRE: Marcos , APELLIDO: Rojo , EMAIL: MR@gmail.com
+05:10:26 PM: DEBUG [PersonaDao.py:68] 
+        ID: 24 , NOMBRE: Chiquito , APELLIDO: Romero , EMAIL: CR@gmailcom
+05:10:26 PM: DEBUG [PersonaDao.py:68] 
+        ID: 25 , NOMBRE: Rodrigo , APELLIDO: De Paul , EMAIL: RD@gmail.com
+05:10:26 PM: DEBUG [PersonaDao.py:68] 
+        ID: 26 , NOMBRE: Emiliano , APELLIDO: Martinez , EMAIL: EM@gmail.com
+05:10:26 PM: DEBUG [PersonaDao.py:68] 
+        ID: 28 , NOMBRE: Emanuel , APELLIDO: Rojo , EMAIL: ER@gmail.com
+05:10:26 PM: DEBUG [PersonaDao.py:68] 
+        ID: 29 , NOMBRE: Thiago , APELLIDO: Bonanote , EMAIL: TB@gmail.com
+05:10:26 PM: DEBUG [PersonaDao.py:68] 
+        ID: 30 , NOMBRE: Ruben , APELLIDO: Forlan , EMAIL: RF@gmail.com
+05:12:14 PM: DEBUG [cursur_del_pool.py:11] Inicio del metodo with __enter__
+05:12:14 PM: DEBUG [Conexion.py:28] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000021256CCA850>
+05:12:14 PM: DEBUG [Conexion.py:39] Conexion obtenida del poll <connection object at 0x0000021258D74D00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:12:14 PM: DEBUG [cursur_del_pool.py:18] Se ejecuta metodo __exit__
+05:12:14 PM: DEBUG [cursur_del_pool.py:24] Commit de la transaccion
+05:12:14 PM: DEBUG [Conexion.py:47] Regresamos la conexion al pool: <connection object at 0x0000021258D74D00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:12:14 PM: DEBUG [PersonaDao.py:68] 
+        ID: 1 , NOMBRE: Dario , APELLIDO: Basualdo , EMAIL: DB@gmail.com
+05:12:14 PM: DEBUG [PersonaDao.py:68] 
+        ID: 2 , NOMBRE: Martin , APELLIDO: Palermo , EMAIL: MP@gmail.com
+05:12:14 PM: DEBUG [PersonaDao.py:68] 
+        ID: 3 , NOMBRE: Leonel , APELLIDO: Messi , EMAIL: LM@gmail.com
+05:12:14 PM: DEBUG [PersonaDao.py:68] 
+        ID: 16 , NOMBRE: Cristiano , APELLIDO: Ronaldo , EMAIL: CR7@gmail.com
+05:12:14 PM: DEBUG [PersonaDao.py:68] 
+        ID: 17 , NOMBRE: Roman , APELLIDO: Riquelme , EMAIL: RR@gmail.com
+05:12:14 PM: DEBUG [PersonaDao.py:68] 
+        ID: 19 , NOMBRE: Angel , APELLIDO: Dimaria , EMAIL: AD@gmail.com
+05:12:14 PM: DEBUG [PersonaDao.py:68] 
+        ID: 21 , NOMBRE: Paulo , APELLIDO: Dibala , EMAIL: PD@gmail.com
+05:12:14 PM: DEBUG [PersonaDao.py:68] 
+        ID: 22 , NOMBRE: Marcos , APELLIDO: Rojo , EMAIL: MR@gmail.com
+05:12:14 PM: DEBUG [PersonaDao.py:68] 
+        ID: 24 , NOMBRE: Chiquito , APELLIDO: Romero , EMAIL: CR@gmailcom
+05:12:14 PM: DEBUG [PersonaDao.py:68] 
+        ID: 25 , NOMBRE: Rodrigo , APELLIDO: De Paul , EMAIL: RD@gmail.com
+05:12:14 PM: DEBUG [PersonaDao.py:68] 
+        ID: 26 , NOMBRE: Emiliano , APELLIDO: Martinez , EMAIL: EM@gmail.com
+05:12:14 PM: DEBUG [PersonaDao.py:68] 
+        ID: 28 , NOMBRE: Emanuel , APELLIDO: Rojo , EMAIL: ER@gmail.com
+05:12:14 PM: DEBUG [PersonaDao.py:68] 
+        ID: 29 , NOMBRE: Thiago , APELLIDO: Bonanote , EMAIL: TB@gmail.com
+05:12:14 PM: DEBUG [PersonaDao.py:68] 
+        ID: 30 , NOMBRE: Ruben , APELLIDO: Forlan , EMAIL: RF@gmail.com

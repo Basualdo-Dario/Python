@@ -1,6 +1,7 @@
 from logger_base import log
 from Conexion import Conexion
 from Persona import Persona
+from cursur_del_pool import CursorDelPool
 
 class PersonaDao:
      
@@ -17,7 +18,7 @@ class PersonaDao:
 
     @classmethod
     def seleccionar(cls):
-        with Conexion.obtenerCursor() as cursor:
+        with  CursorDelPool() as cursor:
             cursor.execute(cls._SELECCIONAR)
             registros = cursor.fetchall()
             personas = []
@@ -29,8 +30,7 @@ class PersonaDao:
 
     @classmethod
     def insertar(cls,persona):
-        with  Conexion.obtenerConexion():
-            with Conexion.obtenerCursor() as cursor:
+        with  CursorDelPool() as cursor:
                 valores = (persona.nombre,persona.apellido,persona.email)
                 cursor.execute(cls._INSERTAR,valores)
                 log.debug(f'Persona insertada: {persona}')
@@ -39,16 +39,14 @@ class PersonaDao:
 
     @classmethod
     def actualizar(cls,persona):
-       with Conexion.obtenerConexion():
-            with Conexion.obtenerCursor() as cursor:
+       with  CursorDelPool() as cursor:
                 valores = (persona.nombre,persona.apellido,persona.email,persona.id_persona)
                 cursor.execute(cls._ACTUALIZAR,valores)
                 return cursor.rowcount
 
     @classmethod
     def eliminar(cls,persona):
-       with Conexion.obtenerConexion():
-            with Conexion.obtenerCursor() as cursor:
+        with  CursorDelPool() as cursor:
                 cursor.execute(cls._ELIMINAR,(persona.id_persona,))
 
 
@@ -56,14 +54,14 @@ if __name__ == '__main__':
 
 
     
-    persona1 = Persona(nombre='Thiago',apellido='Bonanote',email='TB@gmail.com')
+    persona1 = Persona(nombre='Ruben',apellido='Forlan',email='RF@gmail.com')
     PersonaDao.insertar(persona1)
    
-    persona1 = Persona(id_persona=26,nombre='Emiliano',apellido='Martinez',email='EM@gmail.com')
+    persona1 = Persona(id_persona=28,nombre='Emanuel',apellido='Rojo',email='ER@gmail.com')
     PersonaDao.actualizar(persona1)
 
-    persona1 = Persona(id_persona=23)
-    PersonaDao.eliminar(persona1)
+    persona1 = Persona(id_persona=27)
+    PersonaDao.eliminar(persona1) 
 
     personas = PersonaDao.seleccionar()
     for persona in personas:
