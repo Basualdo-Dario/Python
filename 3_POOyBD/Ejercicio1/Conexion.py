@@ -18,7 +18,7 @@ class Conexion:
     def obtenerpool(cls):
         if cls._pool is None:
             try:
-                cls._pool = pool.SimpleConnectionPool(cls._MAX_CON,cls._MAX_CON,
+                cls._pool = pool.SimpleConnectionPool(cls._MIN_CON,cls._MAX_CON,
                                                       host = cls._HOST , 
                                                       user = cls._USERNAME,
                                                       password = cls._PASSWORD,
@@ -36,7 +36,7 @@ class Conexion:
     @classmethod
     def obtenerConexion(cls):
         conexion = cls.obtenerpool().getconn()
-        log.debug(f'Conexion obtenida del poll {conexion}')
+        log.debug(f'Conexion obtenida del pool {conexion}')
         return conexion
 
 
