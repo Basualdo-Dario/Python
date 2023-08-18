@@ -45,3 +45,469 @@ LINE 1: SELECT * FROM usuario2
 05:21:50 PM: DEBUG [CursorDelPool.py:17] dentro de exit
 05:21:50 PM: DEBUG [CursorDelPool.py:23] Commit
 05:21:50 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x00000264E36947B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:15:43 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+01:15:43 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x00000208DEE54ED0>
+01:15:43 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x00000208E0E3C7B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:15:43 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+01:15:43 PM: DEBUG [CursorDelPool.py:23] Commit
+01:15:43 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x00000208E0E3C7B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:16:11 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+01:16:11 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x000002386407D510>
+01:16:11 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000023865B3C7B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:16:11 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+01:16:11 PM: DEBUG [CursorDelPool.py:23] Commit
+01:16:11 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000023865B3C7B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:25:26 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+01:25:26 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x000001CECD4B4D10>
+01:25:26 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001CECF30C9D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:25:26 PM: DEBUG [UsuarioDao.py:27] Usuaria agregado: ID: None NOMBRE: Dario PASSWORD: 128
+01:25:26 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+01:25:26 PM: DEBUG [CursorDelPool.py:23] Commit
+01:25:26 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001CECF30C9D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:25:26 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+01:25:26 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001CECF30C9D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:25:26 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+01:25:26 PM: DEBUG [CursorDelPool.py:23] Commit
+01:25:26 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001CECF30C9D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:25:26 PM: DEBUG [UsuarioDao.py:36] ID: 1 NOMBRE: Dario PASSWORD: 128
+01:30:26 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+01:30:26 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x00000282B9CE9750>
+01:30:26 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x00000282B9D1C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:30:26 PM: DEBUG [UsuarioDao.py:27] Usuaria agregado: ID: None NOMBRE: Dario PASSWORD: 128
+01:30:26 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+01:30:26 PM: DEBUG [CursorDelPool.py:23] Commit
+01:30:26 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x00000282B9D1C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:31:28 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+01:31:28 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x000001FDA8EE6210>
+01:31:28 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001FDAACFC7B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:31:28 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+01:31:28 PM: DEBUG [CursorDelPool.py:23] Commit
+01:31:28 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001FDAACFC7B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:31:28 PM: DEBUG [UsuarioDao.py:43] ID: 1 NOMBRE: Dario PASSWORD: 128
+01:31:28 PM: DEBUG [UsuarioDao.py:43] ID: 2 NOMBRE: Dario PASSWORD: 128
+01:51:18 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+01:51:18 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x000001C376D6B550>
+01:51:18 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001C3787FC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:51:18 PM: DEBUG [UsuarioDao.py:36] actualizado
+01:51:18 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+01:51:18 PM: DEBUG [CursorDelPool.py:23] Commit
+01:51:18 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001C3787FC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:53:32 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+01:53:32 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x0000022398DF0450>
+01:53:32 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000022398DFC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:53:32 PM: DEBUG [UsuarioDao.py:36] actualizado
+01:53:32 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+01:53:32 PM: DEBUG [CursorDelPool.py:23] Commit
+01:53:32 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000022398DFC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:53:35 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+01:53:35 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x000001FA85B00450>
+01:53:35 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001FA85B0C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:53:35 PM: DEBUG [UsuarioDao.py:36] actualizado
+01:53:35 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+01:53:35 PM: DEBUG [CursorDelPool.py:23] Commit
+01:53:35 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001FA85B0C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:59:03 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+01:59:03 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x0000020C00464ED0>
+01:59:03 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000020C022FC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:59:03 PM: DEBUG [UsuarioDao.py:27] Usuaria agregado: ID: None NOMBRE: Dario PASSWORD: 128
+01:59:03 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+01:59:03 PM: DEBUG [CursorDelPool.py:23] Commit
+01:59:03 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000020C022FC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:59:03 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+01:59:03 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000020C022FC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:59:03 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+01:59:03 PM: DEBUG [CursorDelPool.py:20] Roolback:<class 'TypeError'>,can only concatenate str (not "int") to str,<traceback object at 0x0000020C0231D800>
+01:59:03 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000020C022FC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:59:19 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+01:59:19 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x000002797AC44ED0>
+01:59:19 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000002797CAAC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:59:19 PM: DEBUG [UsuarioDao.py:27] Usuaria agregado: ID: None NOMBRE: Dario PASSWORD: 128
+01:59:19 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+01:59:19 PM: DEBUG [CursorDelPool.py:23] Commit
+01:59:19 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000002797CAAC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:59:19 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+01:59:19 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000002797CAAC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:59:19 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+01:59:19 PM: DEBUG [CursorDelPool.py:20] Roolback:<class 'TypeError'>,can only concatenate str (not "int") to str,<traceback object at 0x000002797CACD800>
+01:59:19 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000002797CAAC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:01:23 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:01:24 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x0000018BA8394ED0>
+02:01:24 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000018BAA1F08C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:01:24 PM: DEBUG [UsuarioDao.py:27] Usuaria agregado: ID: None NOMBRE: Dario PASSWORD: 128
+02:01:24 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:01:24 PM: DEBUG [CursorDelPool.py:23] Commit
+02:01:24 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000018BAA1F08C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:01:24 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:01:24 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000018BAA1F08C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:01:24 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:01:24 PM: DEBUG [CursorDelPool.py:20] Roolback:<class 'TypeError'>,can only concatenate str (not "int") to str,<traceback object at 0x0000018BAA20DA40>
+02:01:24 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000018BAA1F08C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:01:27 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:01:28 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x0000022B6D9B4ED0>
+02:01:28 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000022B6F8108C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:01:28 PM: DEBUG [UsuarioDao.py:27] Usuaria agregado: ID: None NOMBRE: Dario PASSWORD: 128
+02:01:28 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:01:28 PM: DEBUG [CursorDelPool.py:23] Commit
+02:01:28 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000022B6F8108C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:01:28 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:01:28 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000022B6F8108C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:01:28 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:01:28 PM: DEBUG [CursorDelPool.py:20] Roolback:<class 'TypeError'>,can only concatenate str (not "int") to str,<traceback object at 0x0000022B6F82DA40>
+02:01:28 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000022B6F8108C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:01:40 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:01:40 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x000001FC23954F10>
+02:01:40 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001FC257CC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:01:40 PM: DEBUG [UsuarioDao.py:27] Usuaria agregado: ID: None NOMBRE: Dario PASSWORD: 128
+02:01:40 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:01:40 PM: DEBUG [CursorDelPool.py:23] Commit
+02:01:40 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001FC257CC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:01:40 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:01:40 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001FC257CC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:01:40 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:01:40 PM: DEBUG [CursorDelPool.py:23] Commit
+02:01:40 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001FC257CC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:01:53 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:01:53 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x000001D59A9F4F10>
+02:01:53 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001D59C84C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:01:53 PM: DEBUG [UsuarioDao.py:27] Usuaria agregado: ID: None NOMBRE: Dario PASSWORD: 128
+02:01:53 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:01:53 PM: DEBUG [CursorDelPool.py:23] Commit
+02:01:53 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001D59C84C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:01:53 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:01:53 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001D59C84C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:01:53 PM: DEBUG [UsuarioDao.py:37] actualizado
+02:01:53 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:01:53 PM: DEBUG [CursorDelPool.py:23] Commit
+02:01:53 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001D59C84C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:02:43 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:02:43 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x000001CC72E94ED0>
+02:02:43 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001CC74D3C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:02:43 PM: DEBUG [UsuarioDao.py:27] Usuaria agregado: ID: None NOMBRE: Dario PASSWORD: 128
+02:02:43 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:02:43 PM: DEBUG [CursorDelPool.py:23] Commit
+02:02:43 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001CC74D3C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:02:43 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:02:43 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001CC74D3C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:02:43 PM: DEBUG [UsuarioDao.py:37] actualizado
+02:02:43 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:02:43 PM: DEBUG [CursorDelPool.py:23] Commit
+02:02:43 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001CC74D3C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:02:43 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:02:43 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001CC74D3C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:02:43 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:02:43 PM: DEBUG [CursorDelPool.py:20] Roolback:<class 'TypeError'>,'int' object does not support indexing,<traceback object at 0x000001CC74D5D880>
+02:02:43 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001CC74D3C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:03:23 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:03:23 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x00000231FEAD4ED0>
+02:03:23 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x00000231FF51C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:03:23 PM: DEBUG [UsuarioDao.py:27] Usuaria agregado: ID: None NOMBRE: Dario PASSWORD: 128
+02:03:23 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:03:23 PM: DEBUG [CursorDelPool.py:23] Commit
+02:03:23 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x00000231FF51C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:03:23 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:03:23 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x00000231FF51C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:03:23 PM: DEBUG [UsuarioDao.py:37] actualizado
+02:03:23 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:03:23 PM: DEBUG [CursorDelPool.py:23] Commit
+02:03:23 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x00000231FF51C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:03:23 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:03:23 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x00000231FF51C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:03:23 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:03:23 PM: DEBUG [CursorDelPool.py:23] Commit
+02:03:23 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x00000231FF51C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:03:23 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:03:23 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x00000231FF51C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:03:23 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:03:23 PM: DEBUG [CursorDelPool.py:23] Commit
+02:03:23 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x00000231FF51C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:03:23 PM: DEBUG [UsuarioDao.py:58] ID: 1 NOMBRE: Dario PASSWORD: 128
+02:03:23 PM: DEBUG [UsuarioDao.py:58] ID: 2 NOMBRE: Luis PASSWORD: 3535
+02:03:23 PM: DEBUG [UsuarioDao.py:58] ID: 4 NOMBRE: Dario PASSWORD: 128
+02:03:23 PM: DEBUG [UsuarioDao.py:58] ID: 5 NOMBRE: Dario PASSWORD: 128
+02:03:23 PM: DEBUG [UsuarioDao.py:58] ID: 6 NOMBRE: Dario PASSWORD: 128
+02:03:23 PM: DEBUG [UsuarioDao.py:58] ID: 7 NOMBRE: Dario PASSWORD: 128
+02:03:23 PM: DEBUG [UsuarioDao.py:58] ID: 8 NOMBRE: Dario PASSWORD: 128
+02:03:23 PM: DEBUG [UsuarioDao.py:58] ID: 9 NOMBRE: Dario PASSWORD: 128
+02:03:23 PM: DEBUG [UsuarioDao.py:58] ID: 10 NOMBRE: Dario PASSWORD: 128
+02:04:46 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:04:46 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x000002BEE4216050>
+02:04:46 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000002BEE626C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:04:46 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:04:46 PM: DEBUG [CursorDelPool.py:23] Commit
+02:04:46 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000002BEE626C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:04:46 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:04:46 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000002BEE626C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:04:46 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:04:46 PM: DEBUG [CursorDelPool.py:23] Commit
+02:04:46 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000002BEE626C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:04:46 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:04:46 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000002BEE626C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:04:46 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:04:46 PM: DEBUG [CursorDelPool.py:23] Commit
+02:04:46 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000002BEE626C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:04:46 PM: DEBUG [UsuarioDao.py:60] ID: 1 NOMBRE: Dario PASSWORD: 128
+02:04:46 PM: DEBUG [UsuarioDao.py:60] ID: 2 NOMBRE: Luis PASSWORD: 3535
+02:04:46 PM: DEBUG [UsuarioDao.py:60] ID: 6 NOMBRE: Dario PASSWORD: 128
+02:04:46 PM: DEBUG [UsuarioDao.py:60] ID: 7 NOMBRE: Dario PASSWORD: 128
+02:04:46 PM: DEBUG [UsuarioDao.py:60] ID: 8 NOMBRE: Dario PASSWORD: 128
+02:04:46 PM: DEBUG [UsuarioDao.py:60] ID: 9 NOMBRE: Dario PASSWORD: 128
+02:04:46 PM: DEBUG [UsuarioDao.py:60] ID: 10 NOMBRE: Dario PASSWORD: 128
+02:04:54 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:04:54 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x0000020C3D5B6050>
+02:04:54 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000020C3F63C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:04:54 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:04:54 PM: DEBUG [CursorDelPool.py:23] Commit
+02:04:54 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000020C3F63C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:04:54 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:04:54 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000020C3F63C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:04:54 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:04:54 PM: DEBUG [CursorDelPool.py:23] Commit
+02:04:54 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000020C3F63C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:04:54 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:04:54 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000020C3F63C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:04:54 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:04:54 PM: DEBUG [CursorDelPool.py:23] Commit
+02:04:54 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000020C3F63C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:04:54 PM: DEBUG [UsuarioDao.py:60] ID: 1 NOMBRE: Dario PASSWORD: 128
+02:04:54 PM: DEBUG [UsuarioDao.py:60] ID: 2 NOMBRE: Luis PASSWORD: 3535
+02:04:54 PM: DEBUG [UsuarioDao.py:60] ID: 6 NOMBRE: Dario PASSWORD: 128
+02:04:54 PM: DEBUG [UsuarioDao.py:60] ID: 7 NOMBRE: Dario PASSWORD: 128
+02:04:54 PM: DEBUG [UsuarioDao.py:60] ID: 8 NOMBRE: Dario PASSWORD: 128
+02:04:54 PM: DEBUG [UsuarioDao.py:60] ID: 9 NOMBRE: Dario PASSWORD: 128
+02:04:54 PM: DEBUG [UsuarioDao.py:60] ID: 10 NOMBRE: Dario PASSWORD: 128
+02:05:11 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:05:12 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x0000016E24F06050>
+02:05:12 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000016E26F0C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:05:12 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:05:12 PM: DEBUG [CursorDelPool.py:23] Commit
+02:05:12 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000016E26F0C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:05:12 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:05:12 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000016E26F0C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:05:12 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:05:12 PM: DEBUG [CursorDelPool.py:23] Commit
+02:05:12 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000016E26F0C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:05:12 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:05:12 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000016E26F0C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:05:12 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:05:12 PM: DEBUG [CursorDelPool.py:23] Commit
+02:05:12 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000016E26F0C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:05:12 PM: DEBUG [UsuarioDao.py:60] ID: 1 NOMBRE: Dario PASSWORD: 128
+02:05:12 PM: DEBUG [UsuarioDao.py:60] ID: 2 NOMBRE: Luis PASSWORD: 3535
+02:05:12 PM: DEBUG [UsuarioDao.py:60] ID: 8 NOMBRE: Dario PASSWORD: 128
+02:05:12 PM: DEBUG [UsuarioDao.py:60] ID: 9 NOMBRE: Dario PASSWORD: 128
+02:05:12 PM: DEBUG [UsuarioDao.py:60] ID: 10 NOMBRE: Dario PASSWORD: 128
+02:05:34 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:05:34 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x0000012CDD2D6050>
+02:05:34 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000012CDF35C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:05:34 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:05:34 PM: DEBUG [CursorDelPool.py:23] Commit
+02:05:34 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000012CDF35C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:05:34 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:05:34 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000012CDF35C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:05:34 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:05:34 PM: DEBUG [CursorDelPool.py:23] Commit
+02:05:34 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000012CDF35C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:05:34 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:05:34 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000012CDF35C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:05:34 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:05:34 PM: DEBUG [CursorDelPool.py:23] Commit
+02:05:34 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000012CDF35C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:05:34 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:05:34 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000012CDF35C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:05:34 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:05:34 PM: DEBUG [CursorDelPool.py:23] Commit
+02:05:34 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000012CDF35C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:05:34 PM: DEBUG [UsuarioDao.py:62] ID: 1 NOMBRE: Dario PASSWORD: 128
+02:05:34 PM: DEBUG [UsuarioDao.py:62] ID: 2 NOMBRE: Luis PASSWORD: 3535
+02:06:30 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:06:30 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x0000016C53774ED0>
+02:06:30 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000016C5560C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:06:30 PM: DEBUG [UsuarioDao.py:27] Usuaria agregado: ID: None NOMBRE: Dario PASSWORD: 128
+02:06:30 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:06:30 PM: DEBUG [CursorDelPool.py:23] Commit
+02:06:30 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000016C5560C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:06:30 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:06:30 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000016C5560C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:06:30 PM: DEBUG [UsuarioDao.py:37] actualizado
+02:06:30 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:06:30 PM: DEBUG [CursorDelPool.py:23] Commit
+02:06:30 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000016C5560C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:06:30 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:06:30 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000016C5560C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:06:30 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:06:30 PM: DEBUG [CursorDelPool.py:23] Commit
+02:06:30 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000016C5560C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:06:30 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:06:30 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000016C5560C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:06:30 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:06:30 PM: DEBUG [CursorDelPool.py:23] Commit
+02:06:30 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000016C5560C8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:06:30 PM: DEBUG [UsuarioDao.py:58] ID: 1 NOMBRE: Dario PASSWORD: 128
+02:06:30 PM: DEBUG [UsuarioDao.py:58] ID: 2 NOMBRE: Luis PASSWORD: 3535
+02:06:30 PM: DEBUG [UsuarioDao.py:58] ID: 11 NOMBRE: Dario PASSWORD: 128
+02:42:24 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:42:24 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x00000191FF047290>
+02:42:24 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x00000191FF0CC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:42:24 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:42:24 PM: DEBUG [CursorDelPool.py:23] Commit
+02:42:24 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x00000191FF0CC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:42:24 PM: DEBUG [MenuAppUsuario.py:19] ID: 1 NOMBRE: Dario PASSWORD: 128
+02:42:24 PM: DEBUG [MenuAppUsuario.py:19] ID: 2 NOMBRE: Luis PASSWORD: 3535
+02:42:24 PM: DEBUG [MenuAppUsuario.py:19] ID: 11 NOMBRE: Dario PASSWORD: 128
+02:50:32 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:50:32 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x000001A7216BEE50>
+02:50:32 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001A723510BF0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:50:32 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:50:32 PM: DEBUG [CursorDelPool.py:23] Commit
+02:50:32 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001A723510BF0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:50:32 PM: DEBUG [MenuAppUsuario.py:19] ID: 1 NOMBRE: Dario PASSWORD: 128
+02:50:32 PM: DEBUG [MenuAppUsuario.py:19] ID: 2 NOMBRE: Luis PASSWORD: 3535
+02:50:32 PM: DEBUG [MenuAppUsuario.py:19] ID: 11 NOMBRE: Dario PASSWORD: 128
+02:51:35 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:51:35 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x0000021878255290>
+02:51:35 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:51:35 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:51:35 PM: DEBUG [CursorDelPool.py:23] Commit
+02:51:35 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:51:35 PM: DEBUG [MenuAppUsuario.py:20] ID: 1 NOMBRE: Dario PASSWORD: 128
+02:51:35 PM: DEBUG [MenuAppUsuario.py:20] ID: 2 NOMBRE: Luis PASSWORD: 3535
+02:51:35 PM: DEBUG [MenuAppUsuario.py:20] ID: 11 NOMBRE: Dario PASSWORD: 128
+02:52:05 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:52:05 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:52:05 PM: DEBUG [UsuarioDao.py:27] Usuaria agregado: ID: None NOMBRE: Jorge PASSWORD: 4545
+02:52:05 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:52:05 PM: DEBUG [CursorDelPool.py:23] Commit
+02:52:05 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:52:27 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:52:27 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:52:27 PM: DEBUG [UsuarioDao.py:27] Usuaria agregado: ID: None NOMBRE: jose PASSWORD: 4543
+02:52:27 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:52:27 PM: DEBUG [CursorDelPool.py:23] Commit
+02:52:27 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:52:30 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:52:30 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:52:30 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:52:30 PM: DEBUG [CursorDelPool.py:23] Commit
+02:52:30 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:52:30 PM: DEBUG [MenuAppUsuario.py:20] ID: 1 NOMBRE: Dario PASSWORD: 128
+02:52:30 PM: DEBUG [MenuAppUsuario.py:20] ID: 2 NOMBRE: Luis PASSWORD: 3535
+02:52:30 PM: DEBUG [MenuAppUsuario.py:20] ID: 11 NOMBRE: Dario PASSWORD: 128
+02:52:30 PM: DEBUG [MenuAppUsuario.py:20] ID: 12 NOMBRE: Jorge PASSWORD: 4545
+02:52:30 PM: DEBUG [MenuAppUsuario.py:20] ID: 13 NOMBRE: jose PASSWORD: 4543
+02:53:03 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:53:03 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:53:03 PM: DEBUG [UsuarioDao.py:36] actualizado
+02:53:03 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:53:03 PM: DEBUG [CursorDelPool.py:23] Commit
+02:53:03 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:53:06 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:53:06 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:53:06 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:53:06 PM: DEBUG [CursorDelPool.py:23] Commit
+02:53:06 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:53:06 PM: DEBUG [MenuAppUsuario.py:20] ID: 1 NOMBRE: Dario PASSWORD: 128
+02:53:06 PM: DEBUG [MenuAppUsuario.py:20] ID: 2 NOMBRE: Luis PASSWORD: 3535
+02:53:06 PM: DEBUG [MenuAppUsuario.py:20] ID: 11 NOMBRE: Dario PASSWORD: 128
+02:53:06 PM: DEBUG [MenuAppUsuario.py:20] ID: 12 NOMBRE: Jorge PASSWORD: 4545
+02:53:06 PM: DEBUG [MenuAppUsuario.py:20] ID: 13 NOMBRE: jojo PASSWORD: 5050
+02:53:14 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:53:14 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:53:14 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:53:14 PM: DEBUG [CursorDelPool.py:20] Roolback:<class 'psycopg2.errors.NotNullViolation'>,null value in column "username" of relation "usuario" violates not-null constraint
+DETAIL:  Failing row contains (12, null, null).
+,<traceback object at 0x000002187A00E380>
+02:53:14 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:53:14 PM: DEBUG [MenuAppUsuario.py:44] Error: {e}
+02:53:26 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:53:26 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:53:26 PM: DEBUG [UsuarioDao.py:36] actualizado
+02:53:26 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:53:26 PM: DEBUG [CursorDelPool.py:23] Commit
+02:53:26 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:53:29 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:53:29 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:53:29 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:53:29 PM: DEBUG [CursorDelPool.py:23] Commit
+02:53:29 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:53:29 PM: DEBUG [MenuAppUsuario.py:20] ID: 1 NOMBRE: Dario PASSWORD: 128
+02:53:29 PM: DEBUG [MenuAppUsuario.py:20] ID: 2 NOMBRE: Luis PASSWORD: 3535
+02:53:29 PM: DEBUG [MenuAppUsuario.py:20] ID: 11 NOMBRE: Dario PASSWORD: 128
+02:53:29 PM: DEBUG [MenuAppUsuario.py:20] ID: 12 NOMBRE: Jorge PASSWORD: 4545
+02:53:29 PM: DEBUG [MenuAppUsuario.py:20] ID: 13 NOMBRE: jojo PASSWORD: 5050
+02:55:01 PM: DEBUG [MenuAppUsuario.py:44] Error: {e}
+02:55:24 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:55:24 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:55:24 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:55:24 PM: DEBUG [CursorDelPool.py:20] Roolback:<class 'psycopg2.errors.NotNullViolation'>,null value in column "username" of relation "usuario" violates not-null constraint
+DETAIL:  Failing row contains (12, null, null).
+,<traceback object at 0x000002187A00E4C0>
+02:55:24 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:55:24 PM: DEBUG [MenuAppUsuario.py:44] Error: {e}
+02:55:27 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:55:27 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:55:27 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:55:27 PM: DEBUG [CursorDelPool.py:23] Commit
+02:55:27 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:55:27 PM: DEBUG [MenuAppUsuario.py:20] ID: 1 NOMBRE: Dario PASSWORD: 128
+02:55:27 PM: DEBUG [MenuAppUsuario.py:20] ID: 2 NOMBRE: Luis PASSWORD: 3535
+02:55:27 PM: DEBUG [MenuAppUsuario.py:20] ID: 11 NOMBRE: Dario PASSWORD: 128
+02:55:27 PM: DEBUG [MenuAppUsuario.py:20] ID: 12 NOMBRE: Jorge PASSWORD: 4545
+02:55:27 PM: DEBUG [MenuAppUsuario.py:20] ID: 13 NOMBRE: jojo PASSWORD: 5050
+02:55:44 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:55:44 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:55:44 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:55:44 PM: DEBUG [CursorDelPool.py:20] Roolback:<class 'psycopg2.errors.NotNullViolation'>,null value in column "username" of relation "usuario" violates not-null constraint
+DETAIL:  Failing row contains (12, null, null).
+,<traceback object at 0x000002187A00E8C0>
+02:55:44 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x0000021879FEC8C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:55:44 PM: DEBUG [MenuAppUsuario.py:44] Error: {e}
+02:56:44 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:56:44 PM: DEBUG [Conexion.py:26] Pool obtenido <psycopg2.pool.SimpleConnectionPool object at 0x000001AEF1257910>
+02:56:44 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001AEF12DC9D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:56:44 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:56:44 PM: DEBUG [CursorDelPool.py:23] Commit
+02:56:44 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001AEF12DC9D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:57:00 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:57:00 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001AEF12DC9D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:57:00 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:57:00 PM: DEBUG [CursorDelPool.py:23] Commit
+02:57:00 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001AEF12DC9D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:57:09 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:57:09 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001AEF12DC9D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:57:09 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:57:09 PM: DEBUG [CursorDelPool.py:23] Commit
+02:57:09 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001AEF12DC9D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:57:09 PM: DEBUG [MenuAppUsuario.py:20] ID: 1 NOMBRE: Dario PASSWORD: 128
+02:57:09 PM: DEBUG [MenuAppUsuario.py:20] ID: 2 NOMBRE: Luis PASSWORD: 3535
+02:57:09 PM: DEBUG [MenuAppUsuario.py:20] ID: 11 NOMBRE: Dario PASSWORD: 128
+02:57:09 PM: DEBUG [MenuAppUsuario.py:20] ID: 13 NOMBRE: jojo PASSWORD: 5050
+02:57:17 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:57:17 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001AEF12DC9D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:57:17 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:57:17 PM: DEBUG [CursorDelPool.py:23] Commit
+02:57:17 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001AEF12DC9D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:57:18 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:57:18 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001AEF12DC9D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:57:18 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:57:18 PM: DEBUG [CursorDelPool.py:23] Commit
+02:57:18 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001AEF12DC9D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:57:18 PM: DEBUG [MenuAppUsuario.py:20] ID: 1 NOMBRE: Dario PASSWORD: 128
+02:57:18 PM: DEBUG [MenuAppUsuario.py:20] ID: 2 NOMBRE: Luis PASSWORD: 3535
+02:57:18 PM: DEBUG [MenuAppUsuario.py:20] ID: 11 NOMBRE: Dario PASSWORD: 128
+02:57:24 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:57:24 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001AEF12DC9D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:57:24 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:57:24 PM: DEBUG [CursorDelPool.py:23] Commit
+02:57:24 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001AEF12DC9D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:57:33 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:57:33 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001AEF12DC9D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:57:33 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:57:33 PM: DEBUG [CursorDelPool.py:23] Commit
+02:57:33 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001AEF12DC9D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:57:35 PM: DEBUG [CursorDelPool.py:11] dentro de enter
+02:57:35 PM: DEBUG [Conexion.py:38] Conexion obtenida<connection object at 0x000001AEF12DC9D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:57:35 PM: DEBUG [CursorDelPool.py:17] dentro de exit
+02:57:35 PM: DEBUG [CursorDelPool.py:23] Commit
+02:57:35 PM: DEBUG [Conexion.py:44] Conexion liberada<connection object at 0x000001AEF12DC9D0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:57:35 PM: DEBUG [MenuAppUsuario.py:20] ID: 1 NOMBRE: Dario PASSWORD: 128
+02:57:35 PM: DEBUG [MenuAppUsuario.py:20] ID: 2 NOMBRE: Luis PASSWORD: 3535

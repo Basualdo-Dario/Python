@@ -1,5 +1,4 @@
 from logger_base import log
-from Conexion import Conexion
 from Persona import Persona
 from cursur_del_pool import CursorDelPool
 
@@ -53,10 +52,10 @@ class PersonaDao:
 if __name__ == '__main__':
 
 
-    
+        
     persona1 = Persona(nombre='Ruben',apellido='Forlan',email='RF@gmail.com')
     PersonaDao.insertar(persona1)
-   
+
     persona1 = Persona(id_persona=28,nombre='Emanuel',apellido='Rojo',email='ER@gmail.com')
     PersonaDao.actualizar(persona1)
 
@@ -67,6 +66,7 @@ if __name__ == '__main__':
     for persona in personas:
         log.debug(persona) 
         
+    
     
 
 
